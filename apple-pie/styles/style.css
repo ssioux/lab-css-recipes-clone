@@ -1,0 +1,10 @@
+.section-titles {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#guiones:li::marker {
+    color: rgb(0, 0, 0);
+    content: "-"
+  }
+
+
+ 
