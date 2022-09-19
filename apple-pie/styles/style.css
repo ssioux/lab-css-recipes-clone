@@ -1,36 +1,40 @@
 html {
-    font-size: 16px; /* valor predeterminado */
-    scroll-behavior: smooth;
-  }
-  
-  .section-titles {
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; /* valor predeterminado */
+  scroll-behavior: smooth;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  margin-right: 750px;
+}
+.section-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
 }
 
-h1 {
-    color: white;
+.images {
+  margin-left: 100px;
 }
+
+
+
+
 
 
 /* IMG con TEXT dentro */
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+h1 {
+    color: white;
+  }
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  height: 150%;
 }
 
-
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-
-
-
-
-
-
- 
